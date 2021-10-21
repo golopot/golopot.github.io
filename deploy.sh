@@ -4,5 +4,5 @@ cd out
 git init
 git add .
 git commit -m "Automatic commit"
-git remote add origin https://github.com/golopot/golopot.github.io.git
+git remote add origin git@github.com:golopot/golopot.github.io.git
 git push -f origin master

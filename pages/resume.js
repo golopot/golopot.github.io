@@ -73,6 +73,12 @@ export default function Home() {
         <h3>Experience</h3>
         <div className="experience">
           <ExperienceItem
+            date="2021-06 - 2021-09"
+            title="Miyo Technology, Backend Engineer"
+            body={<>Develop go services for an instant messaing app.</>}
+          />
+
+          <ExperienceItem
             date="2020-04 - 2020-11"
             title="Bcow Technology, Backend Engineer"
             body={
@@ -160,14 +166,6 @@ export default function Home() {
             <a href="https://github.com/golopot/some-jsdoc-parser">[link]</a>{' '}
           </h4>
           <p>A hand-wrttien jsdoc parser.</p>
-        </section>
-
-        <section>
-          <h4>
-            <span>vv (2020)</span>{' '}
-            <a href="https://github.com/golopot/vv">[link]</a>{' '}
-          </h4>
-          <p>A json validation library for go.</p>
         </section>
 
         <section>
